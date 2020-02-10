@@ -1,6 +1,6 @@
-# BigClown Playground
+# HARDWARIO Playground
 
-BigClown Playground is free **Windows**, **macOS** and **Linux** software that enables you to:
+HARDWARIO Playground is free **Windows**, **macOS** and **Linux** software that enables you to:
 
 * **Flash firmware** to Core Module
 * **Manage wireless network** with Radio Dongle and nodes
@@ -9,7 +9,7 @@ BigClown Playground is free **Windows**, **macOS** and **Linux** software that e
 
 ![](../.gitbook/assets/_basics_bigclown-playground_playground.png)
 
-## Download BigClown Playground
+## Download HARDWARIO Playground
 
 {% tabs %}
 {% tab title="Windows" %}
@@ -37,11 +37,11 @@ BigClown Playground is free **Windows**, **macOS** and **Linux** software that e
 
 ## Videotutorials
 
-If you like videotutorials, you can watch quick guide to the BigClown Playground in 5 videos. They explain flashing, pairing, Dasboard, Node-RED and Blynk phone integration.
+If you like videotutorials, you can watch quick guide to the HARDWARIO Playground in 5 videos. They explain flashing, pairing, Dasboard, Node-RED and Blynk phone integration.
 
 {% embed url="https://www.youtube.com/playlist?list=PLfRfhTxkuiVw0s9UQ8x5irref-EBwOghF" caption="" %}
 
-## Using BigClown Playground
+## Using HARDWARIO Playground
 
 ### Home
 
@@ -86,7 +86,7 @@ Here you can see all the messages from wireless nodes. You can copy the topics t
 
 ### Firmware
 
-This tab allows you to flash pre-compiled firmwares for all BigClown projects from out GitHub. List of firmwares is downloaded automatically. Choose the firmware or start typing to find project you like to try. You can also flash binary or HEX file from your computer.
+This tab allows you to flash pre-compiled firmwares for all HARDWARIO projects from out GitHub. List of firmwares is downloaded automatically. Choose the firmware or start typing to find project you like to try. You can also flash binary or HEX file from your computer.
 
 Always make sure you are flashing the right Device, usually `bc-core-module`. If you would like to update Radio Dongle, disconnect it first in the Devices tab.
 
@@ -98,5 +98,5 @@ Cannot find the Radio Dongle or Core Module in the device list
 
 * On Windows 7 and macOS please install the [FTDI VCP drivers](https://www.ftdichip.com/Drivers/VCP.htm)
 * On Ubuntu you need to be in `dialout` user group. Please use command `sudo usermod -a -G dialout $USER` and restart computer
-* BigClown Playground cannot flash older Core Module Revision 1. Please use the `bcf`tool. See [version comparison](../hardware/core-module-r1-and-r2-comparison.md)
+* HARDWARIO Playground cannot flash older Core Module Revision 1. Please use the `bcf`tool. See [version comparison](../hardware/core-module-r1-and-r2-comparison.md)
 
